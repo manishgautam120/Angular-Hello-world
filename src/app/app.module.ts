@@ -11,6 +11,7 @@ import { hellp5Component } from './hello5.component';
 import { hello8Component } from './hello8.component';
 import { hello9Component} from './hello9.component';
 import { hello10Component } from './hello10Component';
+import { hello11Component } from './hello11Component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { hello10Component } from './hello10Component';
     hellp5Component,
     hello8Component,
     hello9Component,
-    hello10Component
+    hello10Component,
+    hello11Component
   ],
   imports: [
     BrowserModule
